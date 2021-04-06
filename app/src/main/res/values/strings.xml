@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WanAndroidCompose</string>
+
+    <string name="tag_new">new</string>
+    <string name="tag_top">top</string>
+
+</resources>
