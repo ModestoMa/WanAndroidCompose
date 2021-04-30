@@ -1,5 +1,6 @@
 package me.robbin.wandroidcompose.ui.widget
 
+import androidx.compose.material.BottomNavigation
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
@@ -15,6 +16,9 @@ fun WanScaffold(content: @Composable () -> Unit) {
     WanTheme() {
         Surface(color = Color.White) {
             content()
+            BottomNavigation() {
+                
+            }
         }
     }
 }
